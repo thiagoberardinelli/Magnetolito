@@ -643,7 +643,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 819886289}
-        m_MethodName: ButtonStatus
+        m_MethodName: ButtonMusicStatus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -699,6 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae4aa7baea07d944b702bac70c062c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioType: 1
   buttonOff: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   buttonOn: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1079943255
@@ -1327,7 +1328,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1974032363}
-        m_MethodName: ButtonStatus
+        m_MethodName: ButtonMusicStatus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1383,6 +1384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae4aa7baea07d944b702bac70c062c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioType: 0
   buttonOff: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   buttonOn: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1974145560
