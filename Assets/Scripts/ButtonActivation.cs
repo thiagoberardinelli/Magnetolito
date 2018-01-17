@@ -12,17 +12,23 @@ public class ButtonActivation : MonoBehaviour {
 	public Sprite buttonOn; // Sprite do botão On.
 	private bool active = false;
 
-	public void Start()
+	public void OnEnable()
 	{
-		button = this.GetComponent<Button>(); // Digo que o botão em questão é o componente botão do objeto que o script está atrelado.
-		button.GetComponent<Image>().sprite = buttonOn; // Por default, os dois botões de áudio começam ativados.
+		switch (AudioType)
+		{
+			case ButtonList.SoundEffects:
+				AudioManager.instance.buttonSFX = this;
+				AudioManager.instance.VerifySoundPrefs(Sound.SoundType.SFX, false);
+				break;
+			case ButtonList.Music:
+				AudioManager.instance.buttonMusic = this;
+				AudioManager.instance.VerifySoundPrefs(Sound.SoundType.Music, false);
+				break;
+		}
 	}
 
 	public void ButtonMusicStatus()
 	{
-
-		// Condição que troca os sprites dos botões. Essa ação é comum aos dois botões, dessa forma é chamada sempre pela função. 
-		active = !active; 
 
 		if (active == false)
 		{
@@ -34,17 +40,36 @@ public class ButtonActivation : MonoBehaviour {
 			button.GetComponent<Image>().sprite = buttonOff;
 		}
 
+		// Condição que troca os sprites dos botões. Essa ação é comum aos dois botões, dessa forma é chamada sempre pela função. 		
+		active = !active;
+
 		// Switch responsável por determinar qual botão está sendo chamado pelo enum. Perceba que cada botão, tem também sua função individual. 
 		switch (AudioType) 
 		{
 			case ButtonList.SoundEffects:
-				Debug.Log("SoundEffects");
+				AudioManager.instance.MuteSoundByType(Sound.SoundType.SFX);				
 				break;
 			case ButtonList.Music:
-				Debug.Log("Music");
+				AudioManager.instance.MuteSoundByType(Sound.SoundType.Music);			
 				break;
 		}
+
 	}
-	
+
+	public void changeButtonSprite(bool setOn)
+	{
+		active = !setOn;
+
+		if (setOn == true)
+		{
+			button.GetComponent<Image>().sprite = buttonOn;
+		}
+
+		if (setOn == false)
+		{
+			button.GetComponent<Image>().sprite = buttonOff;
+		}
+	}
+
 }
 
