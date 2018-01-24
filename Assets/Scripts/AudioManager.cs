@@ -38,6 +38,7 @@ public class AudioManager : MonoBehaviour
 
 	private void Start()
 	{
+		AudioManager.instance.PlaySound("LevelSelection");
 		VerifySoundPrefs(Sound.SoundType.SFX, true);
 		VerifySoundPrefs(Sound.SoundType.Music, true);
 	}

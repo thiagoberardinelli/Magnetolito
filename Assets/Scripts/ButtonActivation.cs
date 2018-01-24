@@ -7,7 +7,7 @@ public class ButtonActivation : MonoBehaviour {
 
 	public enum ButtonList { SoundEffects, Music }; // Emum que contém os botões presentes no jogo.
 	public ButtonList AudioType; // Nome da button list que contem o enum.
-	private Button button; // O botão a ser referênciado.
+	public Button button; // O botão a ser referênciado.
 	public Sprite buttonOff; // Sprite do botão Off.
 	public Sprite buttonOn; // Sprite do botão On.
 	private bool active = false;
