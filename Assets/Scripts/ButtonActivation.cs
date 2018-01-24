@@ -24,6 +24,8 @@ public class ButtonActivation : MonoBehaviour {
 				AudioManager.instance.buttonMusic = this;
 				AudioManager.instance.VerifySoundPrefs(Sound.SoundType.Music, false);
 				break;
+			default:
+				break;
 		}
 	}
 
@@ -32,12 +34,12 @@ public class ButtonActivation : MonoBehaviour {
 
 		if (active == false)
 		{
-			button.GetComponent<Image>().sprite = buttonOn;
+			button.GetComponent<Image>().sprite = buttonOff;
 		}
 			
 		if (active == true)
 		{
-			button.GetComponent<Image>().sprite = buttonOff;
+			button.GetComponent<Image>().sprite = buttonOn;
 		}
 
 		// Condição que troca os sprites dos botões. Essa ação é comum aos dois botões, dessa forma é chamada sempre pela função. 		

@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
 
 	private void Start()
 	{
-		AudioManager.instance.PlaySound("LevelSelection");
+		AudioManager.instance.PlaySound("Theme");
 		VerifySoundPrefs(Sound.SoundType.SFX, true);
 		VerifySoundPrefs(Sound.SoundType.Music, true);
 	}
@@ -88,7 +88,7 @@ public class AudioManager : MonoBehaviour
 		}
 	}
 
-	public void MuteSoundByType(Sound.SoundType type) // Passo qual tipo de áudio ele no Inspecto (FX ou Music).
+	public void MuteSoundByType(Sound.SoundType type) // Passo qual tipo de áudio ele no Inspector (FX ou Music).
 	{
 		bool isMuted = false;
 
@@ -110,6 +110,7 @@ public class AudioManager : MonoBehaviour
 		{
 			PlayerPrefs.SetInt("SfxMuted", Convert.ToInt32(isMuted));
 		}
+
 	}
 
 	public void VerifySoundPrefs(Sound.SoundType type, bool isInitializing)

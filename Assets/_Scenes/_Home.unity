@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -138,7 +137,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 258787632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 83.52501, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1546213974}
@@ -242,6 +241,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4947709494169036, guid: e1ef2cd739674e847889164283a455a6, type: 2}
       propertyPath: m_LocalPosition.x
       value: -13.38926
@@ -274,6 +278,41 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].name
+      value: Theme
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e300ede196e99cc4b8209b538855dd0e, type: 3}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].soundType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[0].name
+      value: ClickSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[1].loop
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1ef2cd739674e847889164283a455a6, type: 2}
   m_IsPrefabParent: 0
@@ -301,7 +340,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 492633072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.6576233, y: 121.07515, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 535745692}
@@ -433,8 +472,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535745688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.1306812, y: 0.1306812, z: 0.1306812}
   m_Children:
   - {fileID: 492633073}
   - {fileID: 1954528244}
@@ -518,7 +557,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -638,7 +676,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819886284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -101.322784, y: 30.799969, z: 0}
   m_LocalScale: {x: 1.0000199, y: 1.0000199, z: 1.0000199}
   m_Children:
   - {fileID: 2035389344}
@@ -700,6 +738,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+          type: 2}
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Theme
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &819886287
@@ -747,6 +797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioType: 1
+  button: {fileID: 819886286}
   buttonOff: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   buttonOn: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1079943255
@@ -774,7 +825,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079943255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 19.145004, z: 0}
   m_LocalScale: {x: 1.0000199, y: 1.0000199, z: 1.0000199}
   m_Children:
   - {fileID: 774172068}
@@ -955,7 +1006,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1400351868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 293.6, y: -171.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 819886285}
@@ -963,10 +1014,10 @@ RectTransform:
   m_Father: {fileID: 535745692}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 12}
-  m_SizeDelta: {x: 162.3, y: 59.2}
+  m_AnchorMin: {x: 0.72360355, y: 0.032697547}
+  m_AnchorMax: {x: 1, y: 0.19400544}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 0}
 --- !u!1 &1546213973
 GameObject:
@@ -1141,7 +1192,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1945703508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -45.234997, z: 0}
   m_LocalScale: {x: 1.0000199, y: 1.0000199, z: 1.0000199}
   m_Children:
   - {fileID: 1818150804}
@@ -1261,7 +1312,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1954528243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -41.77501, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 258787633}
@@ -1270,10 +1321,10 @@ RectTransform:
   m_Father: {fileID: 535745692}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -63.1}
-  m_SizeDelta: {x: 390, y: 326.1}
+  m_AnchorMin: {x: 0.16791554, y: -0.00000004157708}
+  m_AnchorMax: {x: 0.8320845, y: 0.77234334}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954528245
 MonoBehaviour:
@@ -1323,7 +1374,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1974032358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -41.532486, y: 30.799997, z: 0}
   m_LocalScale: {x: 1.0000199, y: 1.0000199, z: 1.0000199}
   m_Children:
   - {fileID: 2045899238}
@@ -1385,6 +1436,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+          type: 2}
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSound
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1974032361
@@ -1432,6 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioType: 0
+  button: {fileID: 1974032360}
   buttonOff: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   buttonOn: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1974145560
