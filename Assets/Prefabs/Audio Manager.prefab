@@ -34,7 +34,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1767925471096630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3169175, y: 2.4784777, z: 90}
+  m_LocalPosition: {x: -13.38926, y: -0.4240172, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,18 +51,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9debdcd514d6f374d86b786b7dc0c350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonMusic: {fileID: 0}
+  buttonSFX: {fileID: 0}
   sounds:
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: Click
+    clip: {fileID: 8300000, guid: c3e6687f76633284eb376275e5fb1e1e, type: 3}
+    volume: 1
+    pitch: 1
     loop: 0
-    soundType: 0
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
-    soundType: 0
+    soundType: 1
     source: {fileID: 0}
