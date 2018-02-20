@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212227161819668504}
   - component: {fileID: 58767674328496782}
   - component: {fileID: 50895215292624340}
+  - component: {fileID: 114557748837439754}
   m_Layer: 0
   m_Name: Object Circle
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1770805374440630}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9, y: -10.3, z: 5}
+  m_LocalPosition: {x: -3.9, y: -10.3, z: -5}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,6 +78,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!114 &114557748837439754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770805374440630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2862b92bc3400b408f8343e57b951c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212227161819668504
 SpriteRenderer:
   m_ObjectHideFlags: 1
