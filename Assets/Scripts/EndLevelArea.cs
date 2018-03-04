@@ -5,9 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class EndLevelArea : MonoBehaviour
 {
-    public LevelManager LevelManager;
+	public CheckLevelEndAreas checkLevelEndAreas;
 
-    public List<EndLevelObject> RequiredTriggerObjects = new List<EndLevelObject>();
+	public List<EndLevelObject> RequiredTriggerObjects = new List<EndLevelObject>();
 
     public bool HasAllObjects
     {
@@ -26,9 +26,9 @@ public class EndLevelArea : MonoBehaviour
 
     private void Awake()
     {
-        if (LevelManager != null)
+        if (checkLevelEndAreas != null)
         {
-            LevelManager.RegisterEndGameArea(this);
+            checkLevelEndAreas.RegisterEndGameArea(this);
         }
         else
         {
