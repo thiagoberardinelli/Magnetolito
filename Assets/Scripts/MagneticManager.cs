@@ -8,7 +8,7 @@ public class MagneticManager : MonoBehaviour
 
 	public float MagneticForceIntensity = 1f;
 
-	void Update()
+	private void Update()
 	{
 		if (Input.GetMouseButton(0))
 		{
