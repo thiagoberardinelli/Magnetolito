@@ -7,6 +7,7 @@ public class CheckLevelEndAreas : MonoBehaviour {
 	private List<EndLevelArea> EndLevelAreas = new List<EndLevelArea>();
 
 	public GameObject winPanel;
+	public GameObject forceManager;
 	
 	private float timerCheckObjects = 0f;
 	private float timeVariation = 1f;
@@ -15,7 +16,6 @@ public class CheckLevelEndAreas : MonoBehaviour {
 	private bool levelCompleted;
 
 	
-
 	private void Update()
 	{
 		CheckEndLevelAreas();
@@ -50,9 +50,9 @@ public class CheckLevelEndAreas : MonoBehaviour {
 					// Go to next level.
 					Debug.Log("Level Complete");
 					levelCompleted = true;
-					timerCheckObjects = 0f;
+					timerCheckObjects = 0f;					
 					winPanel.SetActive(true);
-
+					forceManager.GetComponent<MagneticManager>().enabled = false;
 				}
 			}
 		}
