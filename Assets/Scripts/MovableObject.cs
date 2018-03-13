@@ -5,11 +5,26 @@ using UnityEngine;
 
 public class MovableObject : MonoBehaviour
 {
-	public void ApplyForce(Vector3 Direction, float ForceIntensity)
-    {
-        Vector3 DirectionResultant = Direction - transform.position;
-        DirectionResultant.Normalize(); // So that, no matter where on the screen the player touches, the resulting force will be the same
+    public bool CanMove = true;
 
-        GetComponent<Rigidbody2D>().AddForce(DirectionResultant * ForceIntensity);
+    public void ApplyForce(Vector3 Direction, float ForceIntensity)
+    {
+        if (CanMove)
+        {
+            Vector3 DirectionResultant = Direction - transform.position;
+            DirectionResultant.Normalize(); // So that, no matter where on the screen the player touches, the resulting force will be the same
+
+            GetComponent<Rigidbody2D>().AddForce(DirectionResultant * ForceIntensity);
+        }
+    }
+
+    public void CeaseMovement()
+    {
+        CanMove = false;
+    }
+
+    public void ResumeMovement()
+    {
+        CanMove = true;
     }
 }

@@ -388,6 +388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioType: 0
+  button: {fileID: 0}
   buttonOff: {fileID: 0}
   buttonOn: {fileID: 0}
 --- !u!114 &114444018182485090
@@ -429,6 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioType: 0
+  button: {fileID: 0}
   buttonOff: {fileID: 0}
   buttonOn: {fileID: 0}
 --- !u!114 &114522757012373342

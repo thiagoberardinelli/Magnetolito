@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckLevelEndAreas : MonoBehaviour {
-
+public class CheckLevelEndAreas : MonoBehaviour
+{
 	private List<EndLevelArea> EndLevelAreas = new List<EndLevelArea>();
 
 	public GameObject winPanel;

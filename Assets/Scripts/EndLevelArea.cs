@@ -32,7 +32,7 @@ public class EndLevelArea : MonoBehaviour
         }
         else
         {
-            throw new System.Exception("No LevelManager present in a EndLevelArea component.");
+            throw new System.InvalidOperationException("No LevelManager present in a EndLevelArea component.");
         }
     }
 
