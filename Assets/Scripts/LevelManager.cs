@@ -7,6 +7,17 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+	public float timeToLoadNextScene;
+
+	private void Start()
+	{
+		if (SceneManager.GetActiveScene().buildIndex == 0)
+		{
+			Invoke("LoadNextLevel", timeToLoadNextScene);
+		}
+	}
+
+
 	public void GoToLevel(string levelName)
 	{
 		SceneManager.LoadScene(levelName);

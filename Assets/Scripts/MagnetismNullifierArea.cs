@@ -5,7 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class MagnetismNullifierArea : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+	
+	private void OnTriggerEnter2D(Collider2D collision)
     {
         MovableObject Movable = collision.gameObject.GetComponent<MovableObject>();
         if (Movable != null)
