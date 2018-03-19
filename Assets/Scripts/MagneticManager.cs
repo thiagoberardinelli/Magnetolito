@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MagneticManager : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class MagneticManager : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
 		{
 			Vector3 Direction = Camera.main.ScreenToWorldPoint(Input.mousePosition); // Camera.main.ScreentoWorld point retona o valor da posição do mouse em relação ao mundo.
 
