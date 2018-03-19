@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: 70cfdcca0bc6e04418d6914bba539f1d
+timeCreated: 1521426446
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: icon-disabled_0
+    21300002: icon-disabled_1
+    21300004: icon-disabled_2
+    21300006: icon-disabled_3
+    21300008: icon-disabled_4
+    21300010: icon-disabled_5
+    21300012: icon-disabled_6
+    21300014: icon-disabled_7
+    21300016: icon-disabled_8
+    21300018: icon-disabled_9
+    21300020: icon-disabled_10
+    21300022: icon-disabled_11
+    21300024: icon-disabled_12
+    21300026: icon-disabled_13
+    21300028: icon-disabled_14
+    21300030: icon-disabled_15
+    21300032: icon-disabled_16
+    21300034: icon-disabled_17
+    21300036: icon-disabled_18
+    21300038: icon-disabled_19
+    21300040: icon-disabled_20
+    21300042: icon-disabled_21
+    21300044: icon-disabled_22
+    21300046: icon-disabled_23
+    21300048: icon-disabled_24
+    21300050: icon-disabled_25
+    21300052: icon-disabled_26
+    21300054: icon-disabled_27
+    21300056: icon-disabled_28
+    21300058: icon-disabled_29
+    21300060: icon-disabled_30
+    21300062: icon-disabled_31
+    21300064: icon-disabled_32
+    21300066: icon-disabled_33
+    21300068: icon-disabled_34
+    21300070: icon-disabled_35
+    21300072: icon-disabled_36
+    21300074: icon-disabled_37
+    21300076: icon-disabled_38
+    21300078: icon-disabled_39
+    21300080: icon-disabled_40
+    21300082: icon-disabled_41
+    21300084: icon-disabled_42
+    21300086: icon-disabled_43
+    21300088: icon-disabled_44
+    21300090: icon-disabled_45
+    21300092: icon-disabled_46
+    21300094: icon-disabled_47
+    21300096: icon-disabled_48
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icon-disabled_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_6
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_7
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_8
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_9
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 333
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_16
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_19
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 250
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_25
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_26
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_27
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_28
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_29
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 168
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_33
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_34
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_35
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_36
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_37
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_38
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 83
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_43
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_44
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_45
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_46
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_47
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: icon-disabled_48
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -303.5, y: -195}
+      - {x: -303.5, y: -136}
+      - {x: -362.5, y: -136}
+      - {x: -362.5, y: -195}
+    - - {x: -287.5, y: -136}
+      - {x: -290.5, y: -139}
+      - {x: -290.5, y: -191}
+      - {x: -286.5, y: -195}
+      - {x: -229.5, y: -195}
+      - {x: -229.5, y: -137}
+      - {x: -230.5, y: -136}
+    - - {x: -215.5, y: -136}
+      - {x: -215.5, y: -195}
+      - {x: -154.5, y: -195}
+      - {x: -154.5, y: -141}
+      - {x: -158.5, y: -136}
+    - - {x: -140.5, y: -136}
+      - {x: -141.5, y: -140}
+      - {x: -141.5, y: -192}
+      - {x: -138.5, y: -195}
+      - {x: -80.5, y: -195}
+      - {x: -80.5, y: -136}
+    - - {x: -67.5, y: -136}
+      - {x: -67.5, y: -195}
+      - {x: -6.5, y: -195}
+      - {x: -6.5, y: -136}
+    - - {x: 7.5, y: -136}
+      - {x: 6.5, y: -141}
+      - {x: 6.5, y: -195}
+      - {x: 67.5, y: -195}
+      - {x: 67.5, y: -136}
+    - - {x: 136.5, y: -135}
+      - {x: 80.5, y: -135}
+      - {x: 80.5, y: -195}
+      - {x: 137.5, y: -195}
+      - {x: 141.5, y: -191}
+      - {x: 141.5, y: -140}
+    - - {x: 156.5, y: -135}
+      - {x: 154.5, y: -136}
+      - {x: 154.5, y: -195}
+      - {x: 213.5, y: -195}
+      - {x: 215.5, y: -193}
+      - {x: 215.5, y: -135}
+    - - {x: 228.5, y: -134}
+      - {x: 228.5, y: -195}
+      - {x: 289.5, y: -195}
+      - {x: 289.5, y: -134}
+    - - {x: -362.5, y: -53}
+      - {x: -362.5, y: -112}
+      - {x: -361.5, y: -114}
+      - {x: -303.5, y: -114}
+      - {x: -303.5, y: -53}
+    - - {x: -290.5, y: -53}
+      - {x: -290.5, y: -114}
+      - {x: -229.5, y: -114}
+      - {x: -229.5, y: -53}
+    - - {x: -215.5, y: -53}
+      - {x: -215.5, y: -114}
+      - {x: -158.5, y: -114}
+      - {x: -154.5, y: -110}
+      - {x: -154.5, y: -53}
+    - - {x: -141.5, y: -114}
+      - {x: -80.5, y: -114}
+      - {x: -80.5, y: -53}
+      - {x: -136.5, y: -53}
+      - {x: -141.5, y: -54}
+    - - {x: -67.5, y: -53}
+      - {x: -67.5, y: -114}
+      - {x: -7.5, y: -114}
+      - {x: -6.5, y: -109}
+      - {x: -6.5, y: -54}
+      - {x: -11.5, y: -53}
+    - - {x: 11.5, y: -53}
+      - {x: 6.5, y: -54}
+      - {x: 6.5, y: -114}
+      - {x: 67.5, y: -114}
+      - {x: 67.5, y: -53}
+    - - {x: 81.5, y: -53}
+      - {x: 80.5, y: -54}
+      - {x: 80.5, y: -114}
+      - {x: 140.5, y: -114}
+      - {x: 141.5, y: -112}
+      - {x: 141.5, y: -53}
+    - - {x: 158.5, y: -53}
+      - {x: 154.5, y: -57}
+      - {x: 154.5, y: -110}
+      - {x: 158.5, y: -114}
+      - {x: 212.5, y: -114}
+      - {x: 215.5, y: -109}
+      - {x: 215.5, y: -57}
+      - {x: 211.5, y: -53}
+    - - {x: 230.5, y: -53}
+      - {x: 229.5, y: -57}
+      - {x: 229.5, y: -109}
+      - {x: 232.5, y: -114}
+      - {x: 288.5, y: -114}
+      - {x: 290.5, y: -110}
+      - {x: 290.5, y: -53}
+    - - {x: 303.5, y: -53}
+      - {x: 303.5, y: -113}
+      - {x: 306.5, y: -114}
+      - {x: 358.5, y: -114}
+      - {x: 362.5, y: -110}
+      - {x: 362.5, y: -53}
+    - - {x: -307.5, y: 32}
+      - {x: -359.5, y: 32}
+      - {x: -362.5, y: 29}
+      - {x: -362.5, y: -26}
+      - {x: -360.5, y: -29}
+      - {x: -306.5, y: -29}
+      - {x: -303.5, y: -24}
+      - {x: -303.5, y: 28}
+    - - {x: -289.5, y: 32}
+      - {x: -290.5, y: 28}
+      - {x: -290.5, y: -27}
+      - {x: -286.5, y: -29}
+      - {x: -233.5, y: -29}
+      - {x: -229.5, y: -26}
+      - {x: -229.5, y: 32}
+    - - {x: -159.5, y: 32}
+      - {x: -215.5, y: 32}
+      - {x: -215.5, y: -29}
+      - {x: -154.5, y: -29}
+      - {x: -154.5, y: 29}
+    - - {x: -141.5, y: 32}
+      - {x: -141.5, y: -29}
+      - {x: -80.5, y: -29}
+      - {x: -80.5, y: 28}
+      - {x: -83.5, y: 32}
+    - - {x: -67.5, y: 32}
+      - {x: -67.5, y: -29}
+      - {x: -6.5, y: -29}
+      - {x: -6.5, y: 31}
+      - {x: -9.5, y: 32}
+    - - {x: 7.5, y: 32}
+      - {x: 6.5, y: 28}
+      - {x: 6.5, y: -28}
+      - {x: 7.5, y: -29}
+      - {x: 67.5, y: -29}
+      - {x: 67.5, y: 31}
+      - {x: 62.5, y: 32}
+    - - {x: 81.5, y: 32}
+      - {x: 80.5, y: 29}
+      - {x: 80.5, y: -29}
+      - {x: 141.5, y: -29}
+      - {x: 141.5, y: 32}
+    - - {x: 154.5, y: 32}
+      - {x: 154.5, y: -29}
+      - {x: 215.5, y: -29}
+      - {x: 215.5, y: 31}
+      - {x: 214.5, y: 32}
+    - - {x: 234.5, y: 32}
+      - {x: 229.5, y: 31}
+      - {x: 229.5, y: -26}
+      - {x: 231.5, y: -29}
+      - {x: 284.5, y: -29}
+      - {x: 290.5, y: -28}
+      - {x: 290.5, y: 30}
+      - {x: 289.5, y: 32}
+    - - {x: 304.5, y: 32}
+      - {x: 303.5, y: 31}
+      - {x: 303.5, y: -26}
+      - {x: 306.5, y: -29}
+      - {x: 360.5, y: -29}
+      - {x: 362.5, y: -26}
+      - {x: 362.5, y: 32}
+    - - {x: -306.5, y: 114}
+      - {x: -359.5, y: 114}
+      - {x: -362.5, y: 111}
+      - {x: -362.5, y: 53}
+      - {x: -304.5, y: 53}
+      - {x: -303.5, y: 54}
+      - {x: -303.5, y: 110}
+    - - {x: -234.5, y: 114}
+      - {x: -290.5, y: 114}
+      - {x: -290.5, y: 54}
+      - {x: -287.5, y: 53}
+      - {x: -233.5, y: 53}
+      - {x: -229.5, y: 57}
+      - {x: -229.5, y: 110}
+    - - {x: -156.5, y: 114}
+      - {x: -210.5, y: 114}
+      - {x: -215.5, y: 113}
+      - {x: -215.5, y: 53}
+      - {x: -159.5, y: 53}
+      - {x: -154.5, y: 56}
+      - {x: -154.5, y: 112}
+    - - {x: -141.5, y: 114}
+      - {x: -141.5, y: 53}
+      - {x: -80.5, y: 53}
+      - {x: -80.5, y: 110}
+      - {x: -84.5, y: 114}
+    - - {x: -60.5, y: 114}
+      - {x: -67.5, y: 110}
+      - {x: -67.5, y: 53}
+      - {x: -11.5, y: 53}
+      - {x: -6.5, y: 54}
+      - {x: -6.5, y: 108}
+      - {x: -7.5, y: 114}
+    - - {x: 6.5, y: 114}
+      - {x: 6.5, y: 53}
+      - {x: 66.5, y: 53}
+      - {x: 67.5, y: 57}
+      - {x: 67.5, y: 114}
+    - - {x: 137.5, y: 113}
+      - {x: 134.5, y: 114}
+      - {x: 86.5, y: 114}
+      - {x: 80.5, y: 110}
+      - {x: 80.5, y: 53}
+      - {x: 141.5, y: 53}
+      - {x: 141.5, y: 110}
+    - - {x: 209.5, y: 114}
+      - {x: 154.5, y: 114}
+      - {x: 154.5, y: 54}
+      - {x: 157.5, y: 53}
+      - {x: 211.5, y: 53}
+      - {x: 215.5, y: 57}
+      - {x: 215.5, y: 109}
+      - {x: 211.5, y: 113}
+    - - {x: 232.5, y: 114}
+      - {x: 229.5, y: 109}
+      - {x: 229.5, y: 53}
+      - {x: 290.5, y: 53}
+      - {x: 290.5, y: 114}
+    - - {x: 303.5, y: 114}
+      - {x: 303.5, y: 53}
+      - {x: 362.5, y: 53}
+      - {x: 362.5, y: 112}
+      - {x: 361.5, y: 114}
+    - - {x: -362.5, y: 195}
+      - {x: -362.5, y: 136}
+      - {x: -303.5, y: 136}
+      - {x: -303.5, y: 195}
+    - - {x: -286.5, y: 195}
+      - {x: -289.5, y: 193}
+      - {x: -290.5, y: 190}
+      - {x: -290.5, y: 142}
+      - {x: -289.5, y: 139}
+      - {x: -285.5, y: 136}
+      - {x: -233.5, y: 136}
+      - {x: -229.5, y: 140}
+      - {x: -229.5, y: 192}
+      - {x: -232.5, y: 195}
+    - - {x: -215.5, y: 195}
+      - {x: -215.5, y: 136}
+      - {x: -154.5, y: 136}
+      - {x: -154.5, y: 191}
+      - {x: -157.5, y: 195}
+    - - {x: -141.5, y: 136}
+      - {x: -80.5, y: 136}
+      - {x: -80.5, y: 195}
+      - {x: -141.5, y: 195}
+    - - {x: -67.5, y: 195}
+      - {x: -67.5, y: 137}
+      - {x: -62.5, y: 136}
+      - {x: -7.5, y: 136}
+      - {x: -6.5, y: 141}
+      - {x: -6.5, y: 195}
+    - - {x: 6.5, y: 195}
+      - {x: 6.5, y: 141}
+      - {x: 11.5, y: 136}
+      - {x: 66.5, y: 136}
+      - {x: 67.5, y: 140}
+      - {x: 67.5, y: 195}
+    - - {x: 80.5, y: 195}
+      - {x: 80.5, y: 136}
+      - {x: 136.5, y: 136}
+      - {x: 141.5, y: 137}
+      - {x: 141.5, y: 195}
+    - - {x: 154.5, y: 195}
+      - {x: 154.5, y: 136}
+      - {x: 211.5, y: 136}
+      - {x: 215.5, y: 138}
+      - {x: 215.5, y: 195}
+    - - {x: 229.5, y: 195}
+      - {x: 229.5, y: 136}
+      - {x: 290.5, y: 136}
+      - {x: 290.5, y: 195}
+    - - {x: 303.5, y: 195}
+      - {x: 303.5, y: 136}
+      - {x: 362.5, y: 136}
+      - {x: 362.5, y: 195}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

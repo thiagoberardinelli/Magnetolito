@@ -33,8 +33,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1767925471096630}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.38926, y: -0.4240172, z: 90}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -54,10 +54,17 @@ MonoBehaviour:
   buttonMusic: {fileID: 0}
   buttonSFX: {fileID: 0}
   sounds:
-  - name: Click
+  - name: ClickSound
     clip: {fileID: 8300000, guid: c3e6687f76633284eb376275e5fb1e1e, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     soundType: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: e300ede196e99cc4b8209b538855dd0e, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    soundType: 0
     source: {fileID: 0}

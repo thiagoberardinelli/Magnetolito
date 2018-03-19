@@ -87,11 +87,13 @@ public class EnemyController : MonoBehaviour {
 	}
 
 	// coll = objeto que colide no inimigo.
-	private void OnCollisionEnter2D(Collision2D coll)
+	// Caso eu queria destruir os objetos, descomentar o método abaixo!
+
+	/*private void OnCollisionEnter2D(Collision2D coll)
 	{
 		// Desativo os objetos ao invés de destrui-los para não perder a referência no ForceController.
 		coll.gameObject.SetActive(false); 
-	}
+	}*/
 
 
 }

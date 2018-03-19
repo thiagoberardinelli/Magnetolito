@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0e244e4a124b9a14db2f57d863a14104
+timeCreated: 1521433070
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Shaka Pow Upright
+  fontNames:
+  - Shaka Pow Upright
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

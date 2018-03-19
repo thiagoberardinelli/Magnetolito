@@ -8,14 +8,16 @@ public class CheckLevelEndAreas : MonoBehaviour
 
 	public GameObject winPanel;
 	public GameObject forceManager;
-	
+
+	public List<MovableObject> StopAllObjects = new List<MovableObject>();
+
 	private float timerCheckObjects = 0f;
 	private float timeVariation = 1f;
 	private float timeLimit = 3f;
 
 	private bool levelCompleted;
 
-	
+
 	private void Update()
 	{
 		CheckEndLevelAreas();
@@ -40,19 +42,24 @@ public class CheckLevelEndAreas : MonoBehaviour
 			{
 				if (levelCompleted == false)
 				{
-					timerCheckObjects += timeVariation * Time.deltaTime;
-					Debug.Log(timerCheckObjects);
+					timerCheckObjects += timeVariation * Time.deltaTime;					
 				}
 
 				if (timerCheckObjects >= timeLimit)
 				{
 					// All objects in their respective areas!
 					// Go to next level.
-					Debug.Log("Level Complete");
+
+					// Those commands runs after the objetive is complete.
 					levelCompleted = true;
-					timerCheckObjects = 0f;					
+					timerCheckObjects = 0f;
 					winPanel.SetActive(true);
-					forceManager.GetComponent<MagneticManager>().enabled = false;
+					
+					// Force all objects to cease movement after the objective is complete.
+					foreach (MovableObject Item in StopAllObjects)
+					{
+						Item.CeaseMovement();
+					}
 				}
 			}
 		}
