@@ -10,11 +10,11 @@ public class ButtonMenuController : MonoBehaviour
 	private GameObject lockImage;
 	private GameObject buttonText;
 
-	void Start ()
+	private void Awake ()
 	{
 		button = GetComponent<Button>();
-		lockImage = GetComponentsInChildren<GameObject>()[0];
-		buttonText = GetComponentsInChildren<GameObject>()[1];
+		lockImage = button.transform.GetChild(0).gameObject;
+		buttonText = button.transform.GetChild(1).gameObject;
 	}
 
 	public void UnlockLevel()

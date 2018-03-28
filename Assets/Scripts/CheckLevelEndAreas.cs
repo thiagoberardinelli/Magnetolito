@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckLevelEndAreas : MonoBehaviour
 {
@@ -54,9 +55,15 @@ public class CheckLevelEndAreas : MonoBehaviour
 					levelCompleted = true;
 					timerCheckObjects = 0f;
 					winPanel.SetActive(true);
-					
+
+					// Condition that unlocks new levels
+					if (PlayerPrefs.GetInt("maxReachedLevel") <= SceneManager.GetActiveScene().buildIndex - 2)
+					{
+						PlayerPrefs.SetInt("maxReachedLevel", SceneManager.GetActiveScene().buildIndex - 1);
+					}
+
 					// Force all objects to cease movement after the objective is complete.
-					foreach (MovableObject Item in StopAllObjects)
+						foreach (MovableObject Item in StopAllObjects)
 					{
 						Item.CeaseMovement();
 					}

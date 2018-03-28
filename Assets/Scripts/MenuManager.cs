@@ -6,8 +6,18 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour {
 
 	private int maxReachedLevel;
-	public List<ButtonMenuController> homeButtons = new List<ButtonMenuController>();
 	
+	public List<ButtonMenuController> homeButtons = new List<ButtonMenuController>();
+
+	void Awake()
+	{
+		if (!PlayerPrefs.HasKey("firstTimeEnters"))
+		{
+			PlayerPrefs.SetInt("maxReachedLevel", 1);
+			PlayerPrefs.SetInt("firstTimeEnters", 0);
+		}
+	}
+
 
 	void Start () {
 		maxReachedLevel = PlayerPrefs.GetInt("maxReachedLevel");
@@ -15,5 +25,11 @@ public class MenuManager : MonoBehaviour {
 		{
 			homeButtons[i].UnlockLevel();
 		}
+	}
+
+	// Public method that resets the PlayerPrefs Maximum Reached Level to default for tests proposes. Should be removed later.
+	public void RestartPlayerPrefs()
+	{
+		PlayerPrefs.SetInt("maxReachedLevel", 1);
 	}
 }
