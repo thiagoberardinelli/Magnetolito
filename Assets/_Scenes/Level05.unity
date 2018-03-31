@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2808,6 +2808,65 @@ Prefab:
         type: 2}
       propertyPath: verticalIncrement
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 212893176804025118, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a0333b0814ffd54eaf676e39420ecd1,
+        type: 3}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.109990776
+      objectReference: {fileID: 0}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 24.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.7537531
+      objectReference: {fileID: 0}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -8.984811
+      objectReference: {fileID: 0}
+    - target: {fileID: 61082607981258310, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.461164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974510224760314, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 25.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974510224760314, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: topLimit
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: bottomLimit
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: verticalIncrement
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}

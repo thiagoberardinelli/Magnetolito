@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1301,7 +1301,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4188722724150510, guid: a49acdfbca6ba654cbf9b8c0a09d7592, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 28.2
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4188722724150510, guid: a49acdfbca6ba654cbf9b8c0a09d7592, type: 2}
       propertyPath: m_RootOrder
@@ -1309,22 +1309,42 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4188722724150510, guid: a49acdfbca6ba654cbf9b8c0a09d7592, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 23.3
+      value: 20.1
       objectReference: {fileID: 0}
     - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
         type: 2}
       propertyPath: rightLimit
-      value: 38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
         type: 2}
       propertyPath: leftLimit
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
         type: 2}
       propertyPath: horizontalIncrement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
+        type: 2}
+      propertyPath: topLimit
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
+        type: 2}
+      propertyPath: verticalIncrement
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
+        type: 2}
+      propertyPath: EnemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114532822524220090, guid: a49acdfbca6ba654cbf9b8c0a09d7592,
+        type: 2}
+      propertyPath: bottomLimit
+      value: 2.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a49acdfbca6ba654cbf9b8c0a09d7592, type: 2}
@@ -3734,11 +3754,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4974510224760314, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -31.1
+      value: -30.99
       objectReference: {fileID: 0}
     - target: {fileID: 4974510224760314, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 25.2
+      value: 18.84
       objectReference: {fileID: 0}
     - target: {fileID: 4974510224760314, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
       propertyPath: m_LocalScale.x
@@ -3755,12 +3775,37 @@ Prefab:
     - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
         type: 2}
       propertyPath: topLimit
-      value: 27
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
         type: 2}
       propertyPath: bottomLimit
-      value: 15
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: EnemyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: leftLimit
+      value: -30.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: horizontalIncrement
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: verticalIncrement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750891053171274, guid: 2b44b1d8d9be44043b02cf3706532f34,
+        type: 2}
+      propertyPath: rightLimit
+      value: -15.68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b44b1d8d9be44043b02cf3706532f34, type: 2}
