@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour {
 
 	public enum EnemyList { Static, Horizontal, Vertical };
 	public EnemyList EnemyType;
-	public GameObject enemy;
+	public GameObject enemy;	
+
+	public bool isAnEnemy = false;
+	public float timeUntilRespawn = 0f;
 	
 	private bool goingUp; // Booleana auxilar para definir o tipo de movimentação vertical.
 	private bool goingRight; // Boolena auxilar para definir o tipo de movimentação horizontal.
@@ -89,11 +93,17 @@ public class EnemyController : MonoBehaviour {
 	// coll = objeto que colide no inimigo.
 	// Caso eu queria destruir os objetos, descomentar o método abaixo!
 
-	/*private void OnCollisionEnter2D(Collision2D coll)
+	private IEnumerator OnCollisionEnter2D(Collision2D coll)
 	{
-		// Desativo os objetos ao invés de destrui-los para não perder a referência no ForceController.
-		coll.gameObject.SetActive(false); 
-	}*/
+		if (isAnEnemy == true || coll.gameObject.tag == "Movable Objects")
+		{
+			Destroy(coll.gameObject);
+			yield return new WaitForSeconds(timeUntilRespawn);
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+			
+			
+	}
 
 
 }

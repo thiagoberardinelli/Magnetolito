@@ -10,6 +10,7 @@ public class GameOverColliderBehaivor : MonoBehaviour
 
 	public float extraHorinzotal;
 	public float extraVertical;
+	private float timeUntilRespawn = 2; // float that controls the respawn timer after the player "death".
 
 	// Each vector represents a especific edge of the collider.
 	private Vector2 lowerLeftPoint;
@@ -37,7 +38,7 @@ public class GameOverColliderBehaivor : MonoBehaviour
 		if (collision.gameObject.tag == "Movable Objects")
 		{
 			Destroy(collision.gameObject);
-			yield return new WaitForSeconds(2f);
+			yield return new WaitForSeconds(timeUntilRespawn);
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 	}
