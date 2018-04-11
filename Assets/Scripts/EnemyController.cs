@@ -95,7 +95,7 @@ public class EnemyController : MonoBehaviour {
 
 	private IEnumerator OnCollisionEnter2D(Collision2D coll)
 	{
-		if (isAnEnemy == true || coll.gameObject.tag == "Movable Objects")
+		if (isAnEnemy == true && coll.gameObject.tag == "Movable Objects")
 		{
 			Destroy(coll.gameObject);
 			yield return new WaitForSeconds(timeUntilRespawn);
