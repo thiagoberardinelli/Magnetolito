@@ -8,7 +8,7 @@ public class CheckLevelEndAreas : MonoBehaviour
 	private List<EndLevelArea> EndLevelAreas = new List<EndLevelArea>();
 
 	public GameObject winPanel;
-	public GameObject forceManager;
+	public GameObject forceManager;	
 
 	public List<MovableObject> StopAllObjects = new List<MovableObject>();
 
@@ -18,6 +18,12 @@ public class CheckLevelEndAreas : MonoBehaviour
 
 	private bool levelCompleted;
 
+
+	public void Start()
+	{
+		Time.timeScale = 1f; // secures that in the beggining of the level the time is passing fas as realtime.
+		
+	}
 
 	private void Update()
 	{
@@ -55,6 +61,7 @@ public class CheckLevelEndAreas : MonoBehaviour
 					levelCompleted = true;
 					timerCheckObjects = 0f;
 					winPanel.SetActive(true);
+					Time.timeScale = 0f; // secures that in the end of the level the time is frozen.
 
 					// Condition that unlocks new levels
 					if (PlayerPrefs.GetInt("maxReachedLevel") <= SceneManager.GetActiveScene().buildIndex - 2)
@@ -63,7 +70,8 @@ public class CheckLevelEndAreas : MonoBehaviour
 					}
 
 					// Force all objects to cease movement after the objective is complete.
-						foreach (MovableObject Item in StopAllObjects)
+					
+					foreach (MovableObject Item in StopAllObjects)
 					{
 						Item.CeaseMovement();
 					}
