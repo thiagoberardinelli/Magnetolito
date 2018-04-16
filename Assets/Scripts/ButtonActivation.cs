@@ -11,6 +11,7 @@ public class ButtonActivation : MonoBehaviour {
 	public Sprite buttonOff; // Sprite do botão Off.
 	public Sprite buttonOn; // Sprite do botão On.
 	private bool active = false;
+	private bool isPaused = false;
 
 	public void OnEnable()
 	{
@@ -71,6 +72,21 @@ public class ButtonActivation : MonoBehaviour {
 		{
 			button.GetComponent<Image>().sprite = buttonOff;
 		}
+	}
+
+	public void PauseOnClick()
+	{
+		if (isPaused == false)
+		{
+			Time.timeScale = 0f;
+		}
+
+		else if (isPaused == true)
+		{
+			Time.timeScale = 1f;
+		}
+
+		isPaused = !isPaused;
 	}
 
 }
