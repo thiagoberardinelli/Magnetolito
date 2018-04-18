@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PauseGame : MonoBehaviour {
+public class MenuBarFuncionalities : MonoBehaviour {
 
 	private bool isPaused = false;
 	
@@ -19,5 +20,10 @@ public class PauseGame : MonoBehaviour {
 		}
 
 		isPaused = !isPaused;
+	}
+
+	public void RestartLevel()
+	{
+		SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
 	}
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.47058827, g: 0.47058827, b: 0.47058827, a: 1}
+  m_Color: {r: 0.7921569, g: 0.23529412, b: 0.4627451, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_EffectDistance: {x: 1.5, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &501601281
@@ -746,7 +746,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -967,7 +967,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1275,7 +1275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2054,7 +2054,7 @@ Prefab:
         type: 2}
       propertyPath: menuContent.Array.data[2]
       value: 
-      objectReference: {fileID: 1222286441}
+      objectReference: {fileID: 1222286443}
     - target: {fileID: 224840002659714614, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -2086,6 +2086,126 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ExitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 224397225071265746, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224397225071265746, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224397225071265746, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 165.955
+      objectReference: {fileID: 0}
+    - target: {fileID: 224397225071265746, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539596668782586, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539596668782586, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539596668782586, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 273.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539596668782586, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224209072841829002, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224209072841829002, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224209072841829002, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 380.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 224209072841829002, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224008468434735032, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224008468434735032, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224008468434735032, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 488.48502
+      objectReference: {fileID: 0}
+    - target: {fileID: 224008468434735032, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224893986229570582, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224893986229570582, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224893986229570582, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 595.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 224893986229570582, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224379740857178374, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224379740857178374, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224379740857178374, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 703.505
+      objectReference: {fileID: 0}
+    - target: {fileID: 224379740857178374, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -182.17706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: deec3e7712e93da43a5b5dd85bb7868b, type: 2}
   m_IsPrefabParent: 0
@@ -2102,6 +2222,11 @@ GameObject:
 --- !u!1 &1222286442 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1309871445034514, guid: deec3e7712e93da43a5b5dd85bb7868b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1222286439}
+--- !u!1 &1222286443 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1976316208789412, guid: deec3e7712e93da43a5b5dd85bb7868b,
     type: 2}
   m_PrefabInternal: {fileID: 1222286439}
 --- !u!1 &1286506450
@@ -2219,7 +2344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2388,7 +2513,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2586,7 +2711,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2908,7 +3033,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2980,7 +3105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3054,7 +3179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_Color: {r: 0, g: 0.03529412, b: 0.09019608, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3192,7 +3317,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3327,7 +3452,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3463,7 +3588,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3639,7 +3764,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3775,7 +3900,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300018, guid: 070b2a4979fb5d641867a6b10c687055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8152b879ac613594ca094c9425bf6e47, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

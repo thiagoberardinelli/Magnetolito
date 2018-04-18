@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3146,7 +3146,7 @@ Prefab:
     - target: {fileID: 114004633247992278, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
       propertyPath: menuContent.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224955139514786904, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
@@ -3262,7 +3262,7 @@ Prefab:
         type: 2}
       propertyPath: menuContent.Array.data[4]
       value: 
-      objectReference: {fileID: 919949541}
+      objectReference: {fileID: 1524231966}
     - target: {fileID: 114569129042631616, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3279,9 +3279,19 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: _LevelSelection
       objectReference: {fileID: 0}
+    - target: {fileID: 114004633247992278, guid: deec3e7712e93da43a5b5dd85bb7868b,
+        type: 2}
+      propertyPath: menuContent.Array.data[3]
+      value: 
+      objectReference: {fileID: 919949541}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: deec3e7712e93da43a5b5dd85bb7868b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1524231966 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1891939233128370, guid: deec3e7712e93da43a5b5dd85bb7868b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1524231965}
 --- !u!1001 &1525962971
 Prefab:
   m_ObjectHideFlags: 0
