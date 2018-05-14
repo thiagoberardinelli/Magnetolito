@@ -13,13 +13,37 @@ public class MagneticManager : MonoBehaviour
 	{
 		if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
 		{
-			Vector3 Direction = Camera.main.ScreenToWorldPoint(Input.mousePosition); // Camera.main.ScreentoWorld point retona o valor da posição do mouse em relação ao mundo.
-
-			foreach (MovableObject Item in AffectedObjects)
-			{
-                Item.ApplyForce(Direction, MagneticForceIntensity);
-			}
+            if (! IsInsideMagnetismNullifyingArea())
+            {
+                MoveMoveableObjects();
+            }
 		}
 	}
+
+    private bool IsInsideMagnetismNullifyingArea()
+    {
+        Ray Raycast = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D Hit = Physics2D.Raycast(Raycast.origin, Raycast.direction, Mathf.Infinity);
+        if (Hit.collider != null)
+        {
+            MagnetismNullifierArea Area = Hit.collider.gameObject.GetComponent<MagnetismNullifierArea>();
+            if (Area != null)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private void MoveMoveableObjects()
+    {
+        Vector3 Direction = Camera.main.ScreenToWorldPoint(Input.mousePosition); // Camera.main.ScreentoWorld point retona o valor da posição do mouse em relação ao mundo.
+
+        foreach (MovableObject Item in AffectedObjects)
+        {
+            Item.ApplyForce(Direction, MagneticForceIntensity);
+        }
+    }
 }
 
