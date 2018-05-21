@@ -16,9 +16,14 @@ public class MagneticManager : MonoBehaviour
 		{
             if (! IsInsideMagnetismNullifyingArea())
             {
-				//AudioManager.instance.PlaySound("MagnetEffect");
-				//AudioManager.instance.StartCoroutine(AudioManager.instance.MagnetEffect(0.85f, 0f));
-				MoveMoveableObjects();
+                if (AudioManager.instance.magnetEffectOn == false)
+                {
+                    AudioManager.instance.MagnetEffectCaller();
+                    AudioManager.instance.magnetEffectOn = true;
+                    print(AudioManager.instance.magnetEffectOn);
+                }
+				
+                MoveMoveableObjects();
 			}
 		}
 	}

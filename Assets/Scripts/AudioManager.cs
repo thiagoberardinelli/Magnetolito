@@ -11,7 +11,8 @@ public class AudioManager : MonoBehaviour
 	public ButtonActivation buttonMusic;
 	public ButtonActivation buttonSFX;
 	public Sound[] sounds;
-
+    [HideInInspector]
+    public bool magnetEffectOn;
 
 
 	// Variável estática que referencia instancia desse AudioManager.
@@ -34,17 +35,17 @@ public class AudioManager : MonoBehaviour
 		// Mantêm o AudioManager no DontDestroyOnLoad.
 		DontDestroyOnLoad(gameObject);
 
-		AudioManagerSetup();
-		 
-
+		AudioManagerSetup(); 
 	}
 
 	private void Start()
 	{
 		AudioManager.instance.PlaySound("Theme");
+        AudioManager.instance.PlaySound("MagnetEffect");
 		VerifySoundPrefs(Sound.SoundType.SFX, true);
 		VerifySoundPrefs(Sound.SoundType.Music, true);
-		sounds[2].volume = 0f;
+        magnetEffectOn = false;
+		sounds[2].source.volume = 0f;
 	}
 
 	private void AudioManagerSetup()
@@ -92,11 +93,19 @@ public class AudioManager : MonoBehaviour
 		}
 	}
 
+    // This method is still not working correctly because of the Update method where the magnet force is implemented.
+
+    public void MagnetEffectCaller()
+    {
+        StartCoroutine(MagnetEffect(0.85f, 0f));
+    }
+
 	public IEnumerator MagnetEffect(float volumeOn, float volumeOff) // Plays the magnet effect by setting its volume from 0 to 0.85.
 	{
-		sounds[2].volume = volumeOn;
-		yield return new WaitForSeconds(0.8f);
-		sounds[2].volume = volumeOff;
+        sounds[2].source.volume = volumeOn;
+		yield return new WaitForSeconds(0.1f);
+		sounds[2].source.volume = volumeOff;
+        magnetEffectOn = false;
 	}
 
 	public void MuteSoundByType(Sound.SoundType type) // Passo qual tipo de áudio ele no Inspector (FX ou Music).
