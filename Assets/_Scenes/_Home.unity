@@ -315,7 +315,7 @@ Prefab:
     - target: {fileID: 224840002659714614, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -52.92386
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: deec3e7712e93da43a5b5dd85bb7868b, type: 2}
@@ -500,6 +500,11 @@ Prefab:
       propertyPath: sounds.Array.data[2].loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114367157345025872, guid: e1ef2cd739674e847889164283a455a6,
+        type: 2}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 79872ef3edf50d94b91c3e590b0747e5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1ef2cd739674e847889164283a455a6, type: 2}
   m_IsPrefabParent: 0
