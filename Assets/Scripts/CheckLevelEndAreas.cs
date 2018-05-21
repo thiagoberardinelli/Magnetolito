@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CheckLevelEndAreas : MonoBehaviour
 {
 	private List<EndLevelArea> EndLevelAreas = new List<EndLevelArea>();
 
 	public GameObject winPanel;
-	public GameObject forceManager;	
+	public GameObject forceManager;
+    public List<Image> radials;
 
 	public List<MovableObject> StopAllObjects = new List<MovableObject>();
 
@@ -44,14 +46,22 @@ public class CheckLevelEndAreas : MonoBehaviour
 			if (!Area.HasAllObjects)
 			{
 				timerCheckObjects = 0f;
-				return;
+                foreach (var rad in radials)
+                {
+                    rad.fillAmount = 0f;
+                }
+                return;
 			}
 
 			if (Area.HasAllObjects)
 			{
 				if (levelCompleted == false)
 				{
-					timerCheckObjects += timeVariation * Time.deltaTime;					
+					timerCheckObjects += timeVariation * Time.deltaTime;
+                    foreach (var rad in radials)
+                    {
+                        rad.fillAmount = timerCheckObjects/timeLimit;
+                    }
 				}
 
 				if (timerCheckObjects >= timeLimit)
