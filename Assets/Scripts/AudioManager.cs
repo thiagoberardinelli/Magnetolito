@@ -1,6 +1,9 @@
 ﻿using UnityEngine.Audio;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class AudioManager : MonoBehaviour
 {
@@ -41,6 +44,7 @@ public class AudioManager : MonoBehaviour
 		AudioManager.instance.PlaySound("Theme");
 		VerifySoundPrefs(Sound.SoundType.SFX, true);
 		VerifySoundPrefs(Sound.SoundType.Music, true);
+		sounds[2].volume = 0f;
 	}
 
 	private void AudioManagerSetup()
@@ -86,6 +90,13 @@ public class AudioManager : MonoBehaviour
 		{
 			Debug.LogError(name + " não pode ser tocado pois não esta contido na lista de sons!");
 		}
+	}
+
+	public IEnumerator MagnetEffect(float volumeOn, float volumeOff) // Plays the magnet effect by setting its volume from 0 to 0.85.
+	{
+		sounds[2].volume = volumeOn;
+		yield return new WaitForSeconds(0.8f);
+		sounds[2].volume = volumeOff;
 	}
 
 	public void MuteSoundByType(Sound.SoundType type) // Passo qual tipo de áudio ele no Inspector (FX ou Music).

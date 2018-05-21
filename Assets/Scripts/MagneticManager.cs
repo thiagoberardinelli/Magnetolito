@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class MagneticManager : MonoBehaviour
 {
@@ -15,8 +16,10 @@ public class MagneticManager : MonoBehaviour
 		{
             if (! IsInsideMagnetismNullifyingArea())
             {
-                MoveMoveableObjects();
-            }
+				AudioManager.instance.PlaySound("MagnetEffect");
+				//AudioManager.instance.StartCoroutine(AudioManager.instance.MagnetEffect(0.85f, 0f));
+				MoveMoveableObjects();
+			}
 		}
 	}
 
