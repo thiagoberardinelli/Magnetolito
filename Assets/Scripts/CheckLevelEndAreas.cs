@@ -18,11 +18,13 @@ public class CheckLevelEndAreas : MonoBehaviour
 
 	private bool levelCompleted;
 
+    private EnemyController[] enemyController;
+
 
 	public void Start()
 	{
 		Time.timeScale = 1f; // secures that in the beggining of the level the time is passing fas as realtime.
-		
+        enemyController = FindObjectsOfType<EnemyController>();
 	}
 
 	private void Update()
@@ -61,7 +63,6 @@ public class CheckLevelEndAreas : MonoBehaviour
 					levelCompleted = true;
 					timerCheckObjects = 0f;
 					winPanel.SetActive(true);
-					Time.timeScale = 0f; // secures that in the end of the level the time is frozen.
 
 					// Condition that unlocks new levels
 					if (PlayerPrefs.GetInt("maxReachedLevel") <= SceneManager.GetActiveScene().buildIndex - 2)
@@ -69,7 +70,12 @@ public class CheckLevelEndAreas : MonoBehaviour
 						PlayerPrefs.SetInt("maxReachedLevel", SceneManager.GetActiveScene().buildIndex - 1);
 					}
 
-					// Force all objects to cease movement after the objective is complete.
+                    // Force all objects (enemies and movable objects) to cease movement after the objective is complete.
+
+                    foreach (var enemy in enemyController)
+                    {
+                        enemy.canMove = false;
+                    }
 					
 					foreach (MovableObject Item in StopAllObjects)
 					{
