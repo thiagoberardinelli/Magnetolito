@@ -19,17 +19,30 @@ public class MenuManager : MonoBehaviour {
 	}
 
 
-	void Start () {
-		maxReachedLevel = PlayerPrefs.GetInt("maxReachedLevel");
-		for (int i = 0; i < maxReachedLevel; i++)
-		{
-			homeButtons[i].UnlockLevel();
-		}
+	void Start ()
+    {
+        ProgressChecker();
 	}
 
-	// Public method that resets the PlayerPrefs Maximum Reached Level to default for tests proposes. Should be removed later.
+	// Public method that resets the PlayerPrefs Maximum Reached Level to default for tests purposes. Should be removed later.
 	public void RestartPlayerPrefs()
 	{
 		PlayerPrefs.SetInt("maxReachedLevel", 1);
 	}
+
+    // Unlocks all levels for test purporses. Should be removed later.
+    public void UnlockAllLevels()
+    {
+        PlayerPrefs.SetInt("maxReachedLevel", 10);
+        ProgressChecker();
+    }
+
+    private void ProgressChecker()
+    {
+        maxReachedLevel = PlayerPrefs.GetInt("maxReachedLevel");
+        for (int i = 0; i < maxReachedLevel; i++)
+        {
+            homeButtons[i].UnlockLevel();
+        }
+    }
 }

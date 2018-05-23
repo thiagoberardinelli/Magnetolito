@@ -11,13 +11,14 @@ public class ButtonMenuController : MonoBehaviour
 	private GameObject buttonText;
 
 	private void Awake ()
-	{
+    {
 		button = GetComponent<Button>();
 		lockImage = button.transform.GetChild(0).gameObject;
 		buttonText = button.transform.GetChild(1).gameObject;
+        button.interactable = false;
 	}
 
-	public void UnlockLevel()
+    public void UnlockLevel()
 	{
 		button.interactable = true;
 		lockImage.SetActive(false);
