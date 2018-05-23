@@ -16,12 +16,6 @@ public class MagneticManager : MonoBehaviour
 		{
             if (! IsInsideMagnetismNullifyingArea())
             {
-                if (AudioManager.instance && AudioManager.instance.magnetEffectOn == false)
-                {
-                    AudioManager.instance.MagnetEffectCaller();
-                    AudioManager.instance.magnetEffectOn = true;
-                }
-				
                 MoveMoveableObjects();
 			}
 		}
