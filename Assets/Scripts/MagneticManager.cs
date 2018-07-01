@@ -10,7 +10,7 @@ public class MagneticManager : MonoBehaviour
 
 	public float MagneticForceIntensity = 1f;
 
-	private void Update()
+	private void FixedUpdate()
 	{
 		if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
 		{
