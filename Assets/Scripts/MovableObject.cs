@@ -11,13 +11,10 @@ public class MovableObject : MonoBehaviour
     {
         if (CanMove)
         {
-            Vector3 DirectionResultant = Direction - transform.position;
             Debug.DrawLine(transform.position, Direction, Color.blue);
-            Debug.DrawLine(transform.position, Direction * ForceIntensity, Color.red);
-            Debug.DrawLine(transform.position, DirectionResultant, Color.green);
 
+            Vector3 DirectionResultant = Direction - transform.position;
             DirectionResultant.Normalize(); // So that, no matter where on the screen the player touches, the resulting force will be the same
-            Debug.DrawLine(transform.position, DirectionResultant, Color.yellow);
 
             GetComponent<Rigidbody2D>().AddForce(DirectionResultant * ForceIntensity);
         }
