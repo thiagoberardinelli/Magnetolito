@@ -33,7 +33,7 @@ public class MenuManager : MonoBehaviour {
     // Unlocks all levels for test purporses. Should be removed later.
     public void UnlockAllLevels()
     {
-        PlayerPrefs.SetInt("maxReachedLevel", 10);
+        PlayerPrefs.SetInt("maxReachedLevel", 14);
         ProgressChecker();
     }
 
