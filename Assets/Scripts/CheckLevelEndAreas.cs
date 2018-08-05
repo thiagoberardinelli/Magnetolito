@@ -21,12 +21,14 @@ public class CheckLevelEndAreas : MonoBehaviour
 	private bool levelCompleted;
 
     private EnemyController[] enemyController;
+    private GameController gameController;
 
 
 	public void Start()
 	{
 		Time.timeScale = 1f; // secures that in the beggining of the level the time is passing fas as realtime.
         enemyController = FindObjectsOfType<EnemyController>();
+        gameController = FindObjectOfType<GameController>();
 	}
 
 	private void Update()
@@ -73,6 +75,7 @@ public class CheckLevelEndAreas : MonoBehaviour
 					levelCompleted = true;
 					timerCheckObjects = 0f;
 					winPanel.SetActive(true);
+                    gameController.CheckPerformance();
 
 					// Condition that unlocks new levels
 					if (PlayerPrefs.GetInt("maxReachedLevel") <= SceneManager.GetActiveScene().buildIndex - 2)
