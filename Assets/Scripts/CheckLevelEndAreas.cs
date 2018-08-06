@@ -8,7 +8,6 @@ public class CheckLevelEndAreas : MonoBehaviour
 {
 	private List<EndLevelArea> EndLevelAreas = new List<EndLevelArea>();
 
-	public GameObject winPanel;
 	public GameObject forceManager;
     public List<Image> radials;
 
@@ -73,8 +72,7 @@ public class CheckLevelEndAreas : MonoBehaviour
 
 					// Those commands runs after the objetive is complete.
 					levelCompleted = true;
-					timerCheckObjects = 0f;
-					winPanel.SetActive(true);
+					timerCheckObjects = 0f;				
                     gameController.CheckPerformance();
 
 					// Condition that unlocks new levels

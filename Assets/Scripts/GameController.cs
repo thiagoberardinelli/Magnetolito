@@ -6,15 +6,18 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour {
 
 
-    private float totalTimer = 30f;
+    public float totalTimer = 30f;
     private float timeVariation = 1f; // jumps from a second to another and so.
     private float currentTimer;
 
     private bool isTimerOn = true;
 
+    [Header("Win Panel objects")]
+    public GameObject winPanel;
     public Text timerText;
-
-    public Image[] starsOn;
+    public Text headerText;
+    public Animator starAnimator;
+    //public Image[] starsOn;
 
     private void OnEnable()
     {
@@ -47,26 +50,25 @@ public class GameController : MonoBehaviour {
     public void CheckPerformance()
     {
         isTimerOn = false;
+        winPanel.SetActive(true);
 
         int currentTimerRound = ((int)currentTimer + 1);
         
         if (currentTimerRound >= totalTimer/2)
         {
-            foreach (Image image in starsOn)
-            {
-                image.enabled = true;
-            }
-        }
+            headerText.text = "Perfect!";
+            starAnimator.Play("WinPanelThreeStars");}
 
         if ( 0 < currentTimerRound && currentTimerRound < totalTimer/2)
         {
-            starsOn[0].GetComponent<Image>().enabled = true;
-            starsOn[1].GetComponent<Image>().enabled = true;
+            headerText.text = "Well Done";
+            starAnimator.Play("WinPanelTwoStars");
         }
 
         if (currentTimerRound == 0)
         {
-            starsOn[0].GetComponent<Image>().enabled = true;
+            headerText.text = "Good";
+            starAnimator.Play("WinPanel");
         }
     } 
 }

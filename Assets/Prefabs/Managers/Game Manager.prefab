@@ -51,8 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44f7d453f69d4e45bf7d377d05a5b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalTimer: 30
+  winPanel: {fileID: 0}
   timerText: {fileID: 0}
-  starsOn:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  starAnimator: {fileID: 0}
