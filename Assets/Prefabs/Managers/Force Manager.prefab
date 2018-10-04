@@ -54,4 +54,5 @@ MonoBehaviour:
   AffectedObjects:
   - {fileID: 0}
   - {fileID: 0}
+  mainChar: {fileID: 0}
   MagneticForceIntensity: 100

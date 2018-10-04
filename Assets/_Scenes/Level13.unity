@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073993, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1690,11 +1690,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4537199858147950, guid: bd143958eb52e4b998955b77e63c0164, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -35.87
+      value: -36.9
       objectReference: {fileID: 0}
     - target: {fileID: 4537199858147950, guid: bd143958eb52e4b998955b77e63c0164, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -15.77
+      value: -15.6
       objectReference: {fileID: 0}
     - target: {fileID: 4537199858147950, guid: bd143958eb52e4b998955b77e63c0164, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1727,6 +1727,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd143958eb52e4b998955b77e63c0164, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1048993053 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114932326206672762, guid: bd143958eb52e4b998955b77e63c0164,
+    type: 2}
+  m_PrefabInternal: {fileID: 1048993052}
+  m_Script: {fileID: 11500000, guid: 2aefd78af26c3409aafc5657d83dd956, type: 3}
 --- !u!114 &1092262395 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114907692572853040, guid: c819b1fed67f3d24191002ba556bebae,
@@ -3472,6 +3478,7 @@ MonoBehaviour:
   AffectedObjects:
   - {fileID: 1092262395}
   - {fileID: 402803847}
+  mainChar: {fileID: 1048993053}
   MagneticForceIntensity: 100
 --- !u!4 &2025462953
 Transform:
