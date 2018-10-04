@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: MagnetolitoPulse
+  m_Name: MagnetolitoIdle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,14 +19,6 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 5b188482a8886465982920720a1a21aa, type: 3}
-    - time: 0.16666667
-      value: {fileID: 21300000, guid: 92ccf880ce85c46c4bab98b83be4622c, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: 1f7888ac9047b4cf98ca5394aabc7c03, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: 92ccf880ce85c46c4bab98b83be4622c, type: 3}
-    - time: 0.6666667
       value: {fileID: 21300000, guid: 5b188482a8886465982920720a1a21aa, type: 3}
     attribute: m_Sprite
     path: 
@@ -48,16 +40,12 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: 5b188482a8886465982920720a1a21aa, type: 3}
-    - {fileID: 21300000, guid: 92ccf880ce85c46c4bab98b83be4622c, type: 3}
-    - {fileID: 21300000, guid: 1f7888ac9047b4cf98ca5394aabc7c03, type: 3}
-    - {fileID: 21300000, guid: 92ccf880ce85c46c4bab98b83be4622c, type: 3}
-    - {fileID: 21300000, guid: 5b188482a8886465982920720a1a21aa, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -7,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class MagneticManager : MonoBehaviour
 {
 	public List<MovableObject> AffectedObjects = new List<MovableObject>();
+    public CharacterBehaivor mainChar;
 
 	public float MagneticForceIntensity = 1f;
 
@@ -17,6 +19,7 @@ public class MagneticManager : MonoBehaviour
             if (! IsInsideMagnetismNullifyingArea())
             {
                 MoveMoveableObjects();
+                mainChar.PlayMagnetAnimation();
 			}
 		}
 	}
