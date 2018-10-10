@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073993, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -375,7 +375,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2025462953}
-  - {fileID: 673606584}
   - {fileID: 477150425}
   - {fileID: 1080410753}
   m_Father: {fileID: 0}
@@ -687,7 +686,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4398653463075462, guid: c8dd797cc1af7f240b3b9e07ad856652, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114258182190949084, guid: c8dd797cc1af7f240b3b9e07ad856652,
         type: 2}
@@ -857,11 +856,6 @@ Animator:
   m_PrefabParentObject: {fileID: 95726397738850828, guid: 6b63b486e4434604fad5344026b027f4,
     type: 2}
   m_PrefabInternal: {fileID: 727160870}
---- !u!4 &673606584 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80,
-    type: 2}
-  m_PrefabInternal: {fileID: 1773864204}
 --- !u!1 &680538290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,7 +1924,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4957628868023300, guid: 84c2b6dc5ad804de6947e5659ba984ad, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114948015954066410, guid: 84c2b6dc5ad804de6947e5659ba984ad,
         type: 2}
@@ -2957,54 +2951,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 727160870}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!1001 &1773864204
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 148225255}
-    m_Modifications:
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681001985135376, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c29c6501c5ba3184d81d39e82b2bde80, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &1773864205 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114364486602981630, guid: c29c6501c5ba3184d81d39e82b2bde80,
-    type: 2}
-  m_PrefabInternal: {fileID: 1773864204}
-  m_Script: {fileID: 11500000, guid: 5200baf46c23ae544a049ea91dda8075, type: 3}
 --- !u!1 &1806195501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,7 +3434,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1773864205}
+      objectReference: {fileID: 0}
     - target: {fileID: 224840002659714614, guid: deec3e7712e93da43a5b5dd85bb7868b,
         type: 2}
       propertyPath: m_AnchorMin.y
