@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/__SplashLudo.unity
-    guid: 26dd2363e60be5849a9f6d3b1ef41495
-  - enabled: 1
-    path: Assets/_Scenes/_Home.unity
-    guid: 0691272abf6f61b49816a15049f3fbf4
-  - enabled: 1
     path: Assets/_Scenes/_LevelSelection.unity
     guid: a81fe8e7e1657a14aa35a08d5471b3c2
   - enabled: 1
