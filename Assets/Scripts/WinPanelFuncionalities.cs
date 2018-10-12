@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class MenuBarFuncionalities : MonoBehaviour 
-{
+public class WinPanelFuncionalities : MonoBehaviour {
+
     private LevelController levelController;
 
     private void Start()
@@ -20,11 +19,6 @@ public class MenuBarFuncionalities : MonoBehaviour
     public void RestartLevel()
     {
         levelController.RestartLevel();
-    }
-
-    public void ExitGame()
-    {
-        levelController.ExitGame();
     }
 
     public void LoadNextLevel()

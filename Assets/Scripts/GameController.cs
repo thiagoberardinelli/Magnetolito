@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
@@ -9,8 +10,9 @@ public class GameController : MonoBehaviour {
     public float totalTimer = 30f;
     private float timeVariation = 1f; // jumps from a second to another and so.
     private float currentTimer;
-
     private bool isTimerOn = true;
+
+    private LevelController levelController;
 
     [Header("Win Panel objects")]
     public GameObject winPanel;
@@ -24,9 +26,9 @@ public class GameController : MonoBehaviour {
         currentTimer = totalTimer;
     }
 
-    private void Start()
+    private void Awake()
     {
-        
+        levelController = FindObjectOfType<LevelController>();
     }
 
     void Update()
@@ -57,18 +59,22 @@ public class GameController : MonoBehaviour {
         if (currentTimerRound >= totalTimer/2)
         {
             headerText.text = "Perfect!";
-            starAnimator.Play("WinPanelThreeStars");}
+            starAnimator.Play("WinPanelThreeStars");
+        }
+
 
         if ( 0 < currentTimerRound && currentTimerRound < totalTimer/2)
         {
             headerText.text = "Well Done";
             starAnimator.Play("WinPanelTwoStars");
+            levelController.CompleteLevel(SceneManager.GetActiveScene().name, 2);
         }
 
         if (currentTimerRound == 0)
         {
             headerText.text = "Good";
             starAnimator.Play("WinPanel");
+            levelController.CompleteLevel(SceneManager.GetActiveScene().name, 1);
         }
     } 
 }

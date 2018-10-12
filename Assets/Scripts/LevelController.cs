@@ -5,16 +5,22 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
+    [SerializeField]
     public List<Level> levels;
 
     private void Awake()
     {
+        if (FindObjectsOfType<LevelController>().Length > 1)
+        {
+            Destroy(gameObject);
+        }
+
         DontDestroyOnLoad(gameObject);
-        
+
         // Listar aqui todos os levels.
         levels = new List<Level>
         {
-            new Level(0, "Level00", true, 3, false),
+            new Level(0, "Level00", false, 0, false),
             new Level(1, "Level01", false, 0, true),
             new Level(2, "Level02", false, 0, true),
             new Level(3, "Level03", false, 0, true),
@@ -70,4 +76,4 @@ public class LevelController : MonoBehaviour
     {
         Application.Quit();
     }
-}
+ }
