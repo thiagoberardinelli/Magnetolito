@@ -40,7 +40,6 @@ public class UILevelSelect : MonoBehaviour
         {
             Level level = levelController.levels[(page * pageSize) + i]; // para cada i eu estou criando um Level correspondente.
             UILevel instance = Instantiate(pageList[i]);
-
             
             instance.SetStars(level.Stars);
             instance.transform.SetParent(levelSelectPanel);

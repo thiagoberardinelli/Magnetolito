@@ -60,6 +60,7 @@ public class GameController : MonoBehaviour {
         {
             headerText.text = "Perfect!";
             starAnimator.Play("WinPanelThreeStars");
+            levelController.CompleteLevel(SceneManager.GetActiveScene().name, 3);
         }
 
 

@@ -6,14 +6,14 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     [SerializeField]
-    public List<Level> levels;
+    public List<Level> levels;    
 
     private void Awake()
     {
         if (FindObjectsOfType<LevelController>().Length > 1)
-        {
+        {            
             Destroy(gameObject);
-        }
+        }   
 
         DontDestroyOnLoad(gameObject);
 
@@ -35,6 +35,8 @@ public class LevelController : MonoBehaviour
             new Level(12, "Leve12", false, 0, true),
             new Level(12, "Leve13", false, 0, true)
         };
+
+        print(levels[0].Stars);
     }
 
     public void StartLevel(string levelName)
@@ -53,7 +55,7 @@ public class LevelController : MonoBehaviour
     }
 
     public void CompleteLevel(string levelName, int stars)
-    {
+    {        
         levels.Find(i => i.LevelName == levelName).Complete(stars); // Igual o de cima mas tambem colocar o numero de estrelas obtidas no final do level.
     }
 

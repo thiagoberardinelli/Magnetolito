@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level
+public class Level 
 {
     public int ID { get; set; }
     public string LevelName { get; set; }
@@ -26,6 +26,7 @@ public class Level
 
     public void Complete(int stars)
     {
+        MonoBehaviour.print(stars);
         this.Completed = true;
         this.Stars = stars;
     }

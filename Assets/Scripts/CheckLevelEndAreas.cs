@@ -17,7 +17,9 @@ public class CheckLevelEndAreas : MonoBehaviour
 	private float timeVariation = 1f;
 	private float timeLimit = 3f;
 
+    private bool isAreasChecked;
 	private bool levelCompleted;
+
 
     private EnemyController[] enemyController;
     private GameController gameController;
@@ -67,19 +69,15 @@ public class CheckLevelEndAreas : MonoBehaviour
 
 				if (timerCheckObjects >= timeLimit)
 				{
-					// All objects in their respective areas!
-					// Go to next level.
+                    // All objects in their respective areas!
+                    // Go to next level.
 
-					// Those commands runs after the objetive is complete.
-					levelCompleted = true;
-					timerCheckObjects = 0f;				
-                    gameController.CheckPerformance();
-
-					// Condition that unlocks new levels
-					if (PlayerPrefs.GetInt("maxReachedLevel") <= SceneManager.GetActiveScene().buildIndex - 2)
-					{
-						PlayerPrefs.SetInt("maxReachedLevel", SceneManager.GetActiveScene().buildIndex - 1);
-					}
+                    // Those commands runs after the objetive is complete.                 
+                    if (isAreasChecked == false)
+                    {
+                        gameController.CheckPerformance();
+                        isAreasChecked = true;
+                    }
 
                     // Force all objects (enemies and movable objects) to cease movement after the objective is complete.
 
