@@ -21,19 +21,19 @@ public class LevelController : MonoBehaviour
         levels = new List<Level>
         {
             new Level(0, "Level00", false, 0, false),
-            new Level(1, "Level01", false, 0, true),
-            new Level(2, "Level02", false, 0, true),
-            new Level(3, "Level03", false, 0, true),
-            new Level(4, "Level04", false, 0, true),
-            new Level(5, "Level05", false, 0, true),
-            new Level(6, "Level06", false, 0, true),
-            new Level(7, "Level07", false, 0, true),
-            new Level(8, "Level08", false, 0, true),
-            new Level(9, "Level09", false, 0, true),
-            new Level(10, "Leve10", false, 0, true),
-            new Level(11, "Leve11", false, 0, true),
-            new Level(12, "Leve12", false, 0, true),
-            new Level(12, "Leve13", false, 0, true)
+            new Level(1, "Level01", false, 0, false),
+            new Level(2, "Level02", false, 0, false),
+            new Level(3, "Level03", false, 0, false),
+            new Level(4, "Level04", false, 0, false),
+            new Level(5, "Level05", false, 0, false),
+            new Level(6, "Level06", false, 0, false),
+            new Level(7, "Level07", false, 0, false),
+            new Level(8, "Level08", false, 0, false),
+            new Level(9, "Level09", false, 0, false),
+            new Level(10, "Leve10", false, 0, false),
+            new Level(11, "Leve11", false, 0, false),
+            new Level(12, "Leve12", false, 0, false),
+            new Level(12, "Leve13", false, 0, false)
         };
 
         print(levels[0].Stars);
